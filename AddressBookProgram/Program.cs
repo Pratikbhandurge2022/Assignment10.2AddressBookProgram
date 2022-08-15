@@ -18,11 +18,15 @@ namespace AddressBookProgram
             //UpdateExistingContact update = new UpdateExistingContact();
             //update.UpdateContact();
 
-            Console.WriteLine("Delete a Contact Program");
-            DeleteContact deleteContact = new DeleteContact();
-            deleteContact.ContactDelete();
-            Console.ReadKey();
+            //Console.WriteLine("Delete a Contact Program");
+            //DeleteContact deleteContact = new DeleteContact();
+            //deleteContact.ContactDelete();
+            //Console.ReadKey();
 
+            Console.WriteLine("Welcome to Address Book Program in AddressBookMain class on  Branch UC5");
+            //Console.WriteLine("Enter first name");
+            //String firstName = Console.ReadLine();
+            AddressBook.SetAddress();
         }
     }
 }
