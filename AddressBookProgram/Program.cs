@@ -14,9 +14,15 @@ namespace AddressBookProgram
             // AddNewContacts addNewCon = new AddNewContacts();
             // addNewCon.addNewContacts();
 
-            Console.WriteLine("Update Existing Contact Program");
-            UpdateExistingContact update = new UpdateExistingContact();
-            update.UpdateContact();
+            //Console.WriteLine("Update Existing Contact Program");
+            //UpdateExistingContact update = new UpdateExistingContact();
+            //update.UpdateContact();
+
+            Console.WriteLine("Delete a Contact Program");
+            DeleteContact deleteContact = new DeleteContact();
+            deleteContact.ContactDelete();
+            Console.ReadKey();
+
         }
     }
 }
