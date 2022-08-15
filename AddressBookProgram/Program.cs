@@ -6,15 +6,17 @@ namespace AddressBookProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Address Book Program!");
-            CreateContacts createContacts = new CreateContacts();
-            createContacts.CreateContact();
+            //Console.WriteLine("Welcome To Address Book Program!");
+            //CreateContacts createContacts = new CreateContacts();
+            //createContacts.CreateContact();
 
-            Console.WriteLine("Add New Contacts Program");
-            AddNewContacts addNewCon = new AddNewContacts();
-            addNewCon.addNewContacts();
+            // Console.WriteLine("Add New Contacts Program");
+            // AddNewContacts addNewCon = new AddNewContacts();
+            // addNewCon.addNewContacts();
 
-
+            Console.WriteLine("Update Existing Contact Program");
+            UpdateExistingContact update = new UpdateExistingContact();
+            update.UpdateContact();
         }
     }
 }
