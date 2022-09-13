@@ -21,14 +21,14 @@ namespace AddressBookProgram
         {
 
             AddressBook addressBook = new AddressBook();
-            addressBook.firstName = "Akshay";
-            addressBook.lastName = "Bhagwat";
-            addressBook.address = "Katraj Pune";
+            addressBook.firstName = "pratik";
+            addressBook.lastName = "Bhandurge";
+            addressBook.address = "W Pune";
             addressBook.city = "Pune";
             addressBook.state = "Maharashtra";
-            addressBook.zip = 12354;
-            addressBook.phoneNumber = 6789009876;
-            addressBook.email = "akshayb407@gmail.com";
+            addressBook.zip = 156644;
+            addressBook.phoneNumber = 212164848;
+            addressBook.email = "pratik@gmail.com";
             Console.WriteLine(addressBook.firstName);
         }
     }
